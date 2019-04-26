@@ -1,0 +1,432 @@
+/* General */
+* {
+        font-family: arial;
+        margin: 0;
+        padding: 0;
+        border: none; 
+}
+section, header, nav, footer, article{
+	
+	display:block;
+	clear: both;
+}
+body {
+        align-content: center;
+        background-image: url("../img/fondo.jpg");
+        padding: 1em;
+}
+article {
+        text-align: center;
+        position: relative;
+        background-color: rgba(216,216,216,0.9);
+        width: 80%;
+        height: 50%;
+        padding: 1em;
+        margin: 0 auto;
+        color: black;
+        margin-top: 3em;
+        border-radius: 5px;
+        line-height: 1.6;
+}
+footer {
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 0.75em;
+	text-align: right;
+        padding: 2em;
+        width: auto;
+        height: 100px;
+        margin-top:200px;
+        border-radius: 5px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    background: rgba(0,128,255,0.9);
+}
+a {
+        text-decoration: none;
+        color: white;
+}
+h1 {
+        text-align: center;
+        color: black;
+}
+/* Colores y colocacion */
+#rojo {
+        text-decoration: none;
+        color: red;
+}
+#verde {
+    color: green;
+}
+#negro {
+    color: black;
+}
+#titulo {
+  text-align: justify;  
+}
+/* Sistema de acceso */
+#inicio {
+        text-align: center;
+        position: relative;
+        background-color: rgba(88,194,251,0.9);
+        width: 40%;
+        height: 60%;
+        padding: 3em;
+        margin: 0 auto;
+        color: white;
+        margin-top: 3em;
+        border-radius: 5px;
+        line-height:30px;
+}
+
+/* Cabecera del sistema de acceso */
+#index {
+        margin: 0 auto;
+        text-align: center;
+}
+
+/* Diseño tablas */
+#tablas {
+        width: 90%;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        border: 0;
+        border-collapse: collapse;
+}
+#tablas th, #tablas td {
+        border: 0;
+}
+
+/* Tabla de los formularios y clasificaciones */
+#formularios {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1em;
+        text-align: left;
+        border: none;
+}
+#clasificaciones {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1em;
+        text-align: center;
+        border: none;
+}
+/* Cabecera de sesión. Tabla de sesión */
+#login {
+        text-align: right;
+        color: white;
+}
+#sesion {
+        width: 30%;
+        margin: 0.5em;
+        padding: 1em;
+        float: right;
+        text-align: center;
+        border: none;
+        background-color: rgba(88,194,251,0.9);
+        font-weight: bold;
+        border-radius: 5px;
+}
+
+/* Formularios. Input y botones */
+#name {
+        color: black;
+        padding: 0.3em;
+        border-radius: 5px;
+        text-align: center;
+	box-shadow:5px 5px rgba(33,33,33,0.5);
+}
+#number {
+        padding: 0.2em;
+    	width:10%;
+	border-radius:5px;
+	box-shadow:5px 5px rgba(33,33,33,0.5);
+}
+#password {
+        color: black;
+        padding: 0.3em;
+        border-radius: 5px;
+        text-align: center;
+	box-shadow:5px 5px rgba(33,33,33,0.5);
+}
+#cantidad {
+        width:50px;
+	border-radius:5px;
+	box-shadow:2px 2px rgba(33,33,33,0.5);
+	font-size:1em; 
+}
+
+.boton {
+	border-radius:5px;
+	background-color: rgba(88,194,251,0.9);
+	padding:0.5em;
+	margin:10px;
+        border: solid 0.1em;
+	border-color:#58ACFA;
+        font-weight: bold;
+	color: white;
+        box-shadow:2px 2px rgba(33,33,33,0.5)
+}
+.boton:active {
+        border-radius:5px;
+	background-color: rgba(0,128,255,0.9);
+	padding:0.5em;
+	margin:10px;
+        border: solid 0.1em;
+        font-weight: bold;
+	border-color:gray;
+	color:white;
+}
+.boton:hover {
+        border-radius:5px;
+	background-color: rgba(0,128,255,0.9);
+	padding:0.5em;
+	margin:10px;
+        border: solid 0.1em;
+	border-color:gray;
+	color:white;
+        font-weight: bold;
+}
+.buttom {
+	border-radius:5px;
+	background-color: gray;
+	padding:0.5em;
+	margin:10px;
+        border: solid 0.1em;
+	border-color:gray;
+	color:white;
+        box-shadow:2px 2px rgba(33,33,33,0.5);
+        font-weight: bold;
+}
+.buttom:active {
+        border-radius:5px;
+	background-color: rgba(0,128,255,0.9);
+	padding:0.5em;
+	margin:10px;
+        border: solid 0.1em;
+	border-color:gray;
+	color:white;
+        font-weight: bold;
+}
+.buttom:hover {
+        border-radius:5px;
+	background-color: rgba(0,128,255,0.9);
+	padding:0.5em;
+	margin:10px;
+        border: solid 0.1em;
+	border-color:gray;
+	color:white;
+        font-weight: bold;
+}
+
+/* Imágenes */
+#logo {
+        width: 300px;
+	height: 150px;
+}
+#logomenu {
+        float: left;
+        width: 150px;
+	height: 75px;
+}
+#finalizar {
+        padding: 2em;
+        float: right;
+}
+img {
+    	width: 90px;
+	height: 90px;
+}
+.cerrar {
+    width: 30px;
+    height: 30px;
+}
+.comprar {
+    width: 130px;
+    height: 45px;
+}
+.comprar2 {
+    width: 100px;
+    height: 35px;
+}
+/* menu */
+.menu {
+
+	background-color: rgba(120,133,140,0.9);
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	list-style: none;
+	border-radius: 3px;
+	position:relative;
+        padding: 0em;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+	padding: 20px;
+	font-weight: bold;
+	display: block;
+	font-size: 1em;
+}
+
+.menu li a:hover {
+	color: black;
+	border-radius: 5px;
+}
+.menu li a:active {
+	color: rgba(255,255,255,0.5);
+	background-color: hsla(0,0%,25%,0.25);
+	border-radius: 5px;
+}
+
+/* slider */
+.contenedor2 {
+	width: 90%;
+	margin: 0em auto;
+	text-align: center;
+	display:block;
+}
+
+#slider-container {
+	height: 20%;
+	overflow: hidden;
+	width: 90%;
+	margin: 0em auto;
+}
+
+#slider-box {
+	height: 100%;
+	width: 300%;
+	transition: all 0.75s ease;
+        animation: autoSlider 15s infinite linear;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-o-transition: all 0.75s ease;
+        -moz-animation: autoSlider 15s infinite linear;
+        -o-animation: autoSlider 15s infinite linear;
+        -webkit-animation: autoSlider 15s infinite linear;
+}
+.slider-element {
+	float: left;
+	width: 33.333%;
+}
+
+.element-uno, 
+.element-dos, 
+.element-tres {
+	min-height: 400px;
+	max-height: 100%;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.element-uno {
+	background-image: url("../img/imagen1.jpg");
+        background-size: 100% 100%;
+}
+
+.element-dos {
+	background-image: url("../img/imagen2.jpg");
+        background-size: 100% 100%;
+}
+
+.element-tres {
+	background-image: url("../img/imagen3.jpg");
+        background-size: 100% 100%;
+}
+@keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+@-moz-keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@-webkit-keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
